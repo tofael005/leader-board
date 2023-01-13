@@ -80,6 +80,53 @@ Top blogs start
     color:#562EFF;
 }
 
+/* courses section  */
+.courses{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 24px;
+    
+}
+.course .course-banner img{
+    width: 224px;
+    height: 104px;
+}
+.course-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.course-author{
+    color: #ED6B4F;
+}
+.fa-star.filled{
+    color: #ffb806;
+    font-size: 12px;
+}
+.fa-star.empty{
+    color: #c9c9c9;
+    font-size: 12px;
+}
+.course-duration{
+    margin-left: 12px;
+    background-color: #ffd8e5e7;
+    color: palevioletred;
+    padding: 5px 10px;
+    border-radius: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media only screen and (max-width:688px){
     .top-plyers-container{
