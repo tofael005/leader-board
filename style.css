@@ -114,16 +114,8 @@ Top blogs start
     padding: 5px 10px;
     border-radius: 15px;
 }
-
-
-
-
-
-
-
 /* media quary  */
 /* mobile device  */
-
 @media only screen and (max-width:688px){
     .container{
         width: 100%;
@@ -141,7 +133,7 @@ Top blogs start
     .container{
         width: 100%;
     }
-    .plyers, .courses,{
+    .plyers, .courses{
         grid-template-columns: repeat(2, 1fr);
         padding: 0px 54px;
     }
